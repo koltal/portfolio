@@ -1,5 +1,12 @@
 /* Header css starts here */
+.App{
+  background-color: black;
+}
+
 .Header-Section{
+  position: fixed;
+  top: 0;
+  width: 100%;
   color: white;
   background-color: #232135;
   height: 100px;
@@ -16,8 +23,9 @@
 
 .Main-Section{
   background-color: #232135;
-  padding-top: 50px;
+  padding-top: 200px;
   padding-left: 150px;
+  padding-bottom: 20px;
 
 }
 .Name{
@@ -51,6 +59,80 @@
 }
 
 .Project-Container{
+  margin: 0 auto;
+  width: 86%;
+  /* background-color: #232135; */
+  padding-bottom: 20px;
+}
+
+.Project-Card-Container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.C-My-Projects{
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+.My-projects{
+  color: white;
+  font-size: 32px;
+  padding: 13px;
+ 
+}
+.project-card{
+  background-color: #232135;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+.project-title{
+  font-size: 23px;
+  font-weight: bold;
+}
+.skills-block{
+  display: flex;
+  /* padding: 7px;
+  margin: 10px; */
+}
+.skills-block div{
+  background-color: #191720;
+  color: white;
+  padding: 4px;
+  /* border: 1px solid black; */
+  margin: 10px;
+  border-radius: 3px;
+}
+.Btn-container-redirect button{
+  padding: 10px;
+  border: none;
+  background-color: white;
+  color: blue;
+  border-radius: 3px;
+  margin: 12px;
+}
+.social{
+  /* background-color: white; */
+  color: white;
+
+}
+.github, .instagram, .twitter, .linkdin{
+  /* background-color: #232135; */
+  padding-left: 30px;
+}
+.social-icons{
+  display: flex;
+   /* background-color: #232135; */
+  background-color: whitesmoke;
+  padding: 5px;
+  width: fit-content;
+  opacity: 0.8;
+  border-radius: 5px;
+  
+}
+.self-introduction-container{
+  color: white;
+}
+.my-skills-container{
+  color: white;
 }
