@@ -201,4 +201,22 @@ svg{
 p{
   font-weight: light;
 }
+.skill-icons-container div{
+  padding: 17px;
+}
+.social{
+  justify-content: center;
+  padding-top: 30px;
+}
+.social-icons{
+  margin: 20px;
+}
+.self-introduction-container{
+  color: white;
+  padding-top: 25px;
+}
+.my-skills-container{
+  color: white;
+  padding-top: 30px;
+}
 }
