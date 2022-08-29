@@ -1,12 +1,14 @@
-import logo from './logo.svg';
+import Header from './components/header';
+import Main from './components/main';
+import Project from './components/projectSection';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
+      <Header/>
+      <Main/>
+      <Project/>
     </div>
   );
 }
